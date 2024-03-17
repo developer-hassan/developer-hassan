@@ -20,8 +20,6 @@ const PROJECT_TYPES = {
   API_INTEGRATION: "APIs Development and Integration",
   WEB_APP: "Web Application",
   CUSTOM_APP: "Custom Application Development",
-  PYTHON_GUI: "Python GUI and Frontend",
-  SPA: "Single Page Application (SPA)",
 } as const;
 
 export type ProjectType = (typeof PROJECT_TYPES)[keyof typeof PROJECT_TYPES];
