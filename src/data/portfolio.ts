@@ -1,18 +1,15 @@
 import type { StaticImageData } from "next/image";
 
-// import forkify from "@/../public/portfolio/forkify.png";
-// import omnifood from "@/../public/portfolio/omnifood.png";
-import crownClothing from "@/../public/portfolio/crown-clothing.png";
-// import antheia from "@/../public/portfolio/antheia.png";
-// import retrosGallery from "@/../public/portfolio/retros-gallery.png";
 import triform from "@/../public/portfolio/triform.png";
-// import truebrydge from "@/../public/portfolio/truebrydge.png";
-// import allonia from "@/../public/portfolio/allonia.png";
-// import voytravel from "@/../public/portfolio/voytravel.png";
-// import bankist from "@/../public/portfolio/bankist.png";
-// import wishbux from "@/../public/portfolio/wishbux.png";
-// import natours from "@/../public/portfolio/natours.png";
-// import natoursApp from "@/../public/portfolio/natours-app.png";
+import manyface from "@/../public/portfolio/manyface.png";
+import rag from "@/../public/portfolio/rag.png";
+import heart_disease from "@/../public/portfolio/heart_disease.jpg";
+import image_classification from "@/../public/portfolio/image_classification.jpg";
+import ringneck from "@/../public/portfolio/ringneck.png";
+import snake from "@/../public/portfolio/snake.png";
+import voice_clone from "@/../public/portfolio/text-to-speech.png";
+import boardbuddy from "@/../public/portfolio/trello.png";
+
 
 const PROJECT_TYPES = {
   MACHINE_DEEP_LEARNING: "Machine Learning / Deep Learning",
@@ -43,21 +40,21 @@ let PORTFOLIO: Portfolios = {
       title: "VocalMolder",
       description: "Speak Your Mind, Bear Your Personalized Voice. ",
       technologies: ["FastAPI", "MySQL", "Python", "GitHub", "Text-to-speech"],
-      imageUrl: triform,
+      imageUrl: voice_clone,
       url: "#",
     },
     {
-      title: "HeartGuard ML: Analysis and Classification",
+      title: "HeartGuard ML",
       description: "Predicting Heart Disease, Safeguarding Hearts.",
       technologies: ["Scikit-Learn", "Pandas", "Matplotlib", "NumPy", "Seaborn", "Python", "GitHub"],
-      imageUrl: triform,
+      imageUrl: heart_disease,
       url: "#",
     },
     {
-      title: "TensorFlow Visionary: Image Classification Mastery",
-      description: "See the Unseen, Unleashing the Power of TensorFlow for Image Classification.",
+      title: "Food Vision",
+      description: "See the Unseen, AI Classifies Food images.",
       technologies: ["Scikit-Learn", "TensorFlow", "Keras", "Pandas", "Matplotlib", "NumPy", "Seaborn", "Python", "GitHub"],
-      imageUrl: triform,
+      imageUrl: image_classification,
       url: "#",
     }
   ],
@@ -67,12 +64,12 @@ let PORTFOLIO: Portfolios = {
       title: "Intellyfriend",
       description: "Where knowledge becomes friendship",
       technologies: ["LangChain", "LLMs", "FastAPI", "Python", "GitHub"],
-      imageUrl: triform,
+      imageUrl: rag,
       url: "#",
     },
     {
       title: "Ringneck AI",
-      description: "AI Agents, Human Touch: Redefining Customer Service",
+      description: "Visionary AI: Redefining Customer Service",
       technologies: [
         "FastAPI",
         "LangChain",
@@ -81,7 +78,7 @@ let PORTFOLIO: Portfolios = {
         "Python",
         "GitHub",
       ],
-      imageUrl: triform,
+      imageUrl: ringneck,
       url: "https://ringneck.ai/",
     },
   ],
@@ -100,7 +97,7 @@ let PORTFOLIO: Portfolios = {
         "OpenCV",
         "OOP",
       ],
-      imageUrl: triform,
+      imageUrl: manyface,
       url: "https://manyface.io/",
     },
     {
@@ -115,7 +112,7 @@ let PORTFOLIO: Portfolios = {
         "Python",
         "GitHub",
       ],
-      imageUrl: triform,
+      imageUrl: boardbuddy,
       url: "#",
     },
   ],
@@ -132,14 +129,14 @@ let PORTFOLIO: Portfolios = {
         "Python",
         "GitHub",
       ],
-      imageUrl: triform,
+      imageUrl: ringneck,
       url: "https://ringneck.ai/",
     },
     {
       title: "Serpent Adventure",
       description: "Dive into the Classic Snake Game with Python's Turtle Graphics!",
       technologies: ["Python", "Turtle", "OOP", "GitHub"],
-      imageUrl: triform,
+      imageUrl: snake,
       url: "#",
     }
   ],
