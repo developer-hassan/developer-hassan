@@ -41,7 +41,7 @@ let PORTFOLIO: Portfolios = {
       description: "Speak Your Mind, Bear Your Personalized Voice. ",
       technologies: ["FastAPI", "MySQL", "Python", "GitHub", "Text-to-speech"],
       imageUrl: voice_clone,
-      url: "#",
+      url: "https://vocalmolder-frontend.vercel.app/",
     },
     {
       title: "HeartGuard ML",
